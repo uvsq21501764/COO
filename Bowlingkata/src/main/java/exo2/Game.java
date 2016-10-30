@@ -1,15 +1,17 @@
 package exo2;
 
 public class Game {
-
-	public void roll(int i) {
-		// TODO Auto-generated method stub
+private int score=0;
+	public void roll(int pins) {
+	
+		score += pins;
+	  }
 		
-	}
+	
 
 	public Object score() {
 		// TODO Auto-generated method stub
-		return 0;
+		return score;
 	}
 
 }

@@ -31,7 +31,7 @@ public class BowlingGameTest extends TestCase {
 		  }
 
   
-		  public void testOneSpare() throws Exception {
+		/*  public void testOneSpare() throws Exception {
 			    g.roll(5);
 			    g.roll(5); // spare
 			    g.roll(3);
@@ -39,7 +39,7 @@ public class BowlingGameTest extends TestCase {
 			    assertEquals(16,g.score());
 			  }
   
-  
+  */
   
   
   

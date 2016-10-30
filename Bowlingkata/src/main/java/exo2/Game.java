@@ -2,4 +2,14 @@ package exo2;
 
 public class Game {
 
+	public void roll(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Object score() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

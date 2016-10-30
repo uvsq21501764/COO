@@ -9,7 +9,7 @@ public class Game {
 
 	public Object score() {
 		// TODO Auto-generated method stub
-		return -1;
+		return 0;
 	}
 
 }

@@ -1,17 +1,16 @@
 package exo2;
 
 public class Game {
-private int score=0;
-	public void roll(int pins) {
-	
-		score += pins;
+	  private int score = 0;
+	  private int rolls[] = new int[21];
+	  private int currentRoll = 0;
+
+	  public void roll(int pins) {
+	    score += pins;
+	    rolls[currentRoll++] = pins;
 	  }
-		
-	
 
-	public Object score() {
-		// TODO Auto-generated method stub
-		return score;
+	  public int score() {
+	    return score;
+	  }
 	}
-
-}

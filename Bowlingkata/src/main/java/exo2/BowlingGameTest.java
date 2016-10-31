@@ -1,6 +1,7 @@
 package exo2;
 
 import junit.framework.TestCase;
+import junit.runner.Version;
 
 public class BowlingGameTest extends TestCase {
 	 Game g = new Game();
@@ -70,6 +71,7 @@ public class BowlingGameTest extends TestCase {
   
 
 	public static void main(String[] args) {
+		System.out.println("JUnit version is: " + Version.id());
 		// TODO Auto-generated method stub
 
 	}
